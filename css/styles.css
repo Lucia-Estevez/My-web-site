@@ -1,0 +1,721 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(245, 245, 233);
+    background-image: url(/img/portadas/background.png);
+    background-size: 100%;
+}
+
+p {
+    font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+    font-family: "Sansita", sans-serif;
+    color: #4dcbc7;
+}
+
+h2 {
+    font-family: "Playfair Display", serif;
+    color: #319e9a;
+}
+
+h3 {
+    font-family: "Playfair Display", serif;
+    color: darkblue;
+}
+
+li {
+    font-family: "Playfair Display", serif;
+    color: #319e9a;
+}
+
+h4 {
+    font-family: "Playfair Display", serif;
+    color: #319e9a;
+    font-size: 1em;
+    margin-top: 1em;
+}
+
+
+/* nav */
+
+.navbar {
+    position: fixed;
+    padding: 0;
+    width: 100%;
+    top: 0;
+}
+
+.navbar-collapse {
+    display: flex;
+    justify-content: center; 
+}
+
+.navbar-collapse ul li a {
+    color: darkblue;
+    font-size: 1.2em;
+    margin: 0em 1em 0em 1em;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+.container-fluid {
+    background-color: #B3DBC8;
+    padding: 0;
+    max-width: 100%;
+}
+
+
+@media (min-width: 360px) and (max-width: 821px) {
+    .navbar-collapse {
+        text-align: center;
+    }
+
+    .navbar {
+        position: static;
+    }
+}
+
+
+/* index */
+
+
+.index{
+margin: 2em;
+}
+
+
+/* me */
+
+.me-container {
+    margin: 0;
+    padding: 0;
+    margin-left: 40%;
+}
+
+.galery-content {
+    display: flex;
+    justify-content: center;
+}
+
+.me-img {
+    width: 28.2%;
+}
+
+.portada-me{
+    width: 35%;
+    top: 15px;
+    margin-left: 2em;
+    position: fixed;
+    margin-top: 2em;
+}
+
+
+.img-portada-2 {
+    visibility: hidden;
+    position: fixed;
+}
+
+
+
+.me-text {
+    text-align: justify;
+}
+
+
+.me-text h1 {
+    font-size: 4em;
+    margin-top: 1em;
+    
+}
+
+.biography {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 3em;
+}
+
+.biography-text {
+    width: 70%;
+}
+
+.biography-text h2 {
+    margin-bottom: 0.5em;
+}
+
+.biography-text p{
+    font-size: 1.2em;
+}
+
+.biography-list {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+}
+
+.biography-list ul {
+    margin: 0;
+    padding: 1em;
+    border-radius: 1em;
+    background-color: #a0e2e0;
+    opacity: 80%;
+    width: 80%;
+}
+
+.lib {
+    list-style: none;
+    font-size: 1em;
+    color: darkblue;
+}
+
+.experience-education {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4em;
+}
+
+.archivo {
+    display: flex;
+    align-items: center;
+    width: 15%;
+}
+
+.archivo img {
+    width: 100%;
+}
+
+.archivo-text {
+    width: 85%;
+    font-size: 1em;
+    text-align: start;
+    color: darkblue;
+}
+
+.archivo-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.education {
+    width: 40%;
+}
+
+
+.education ul li {
+    list-style: none;
+    font-size: 1.2em;
+    margin-top: 0.5em;
+}
+
+.experience {
+    width: 40%;
+}
+
+.experience ul li {
+    list-style: none;
+    font-size: 1.2em;
+}
+
+.li1 {
+    margin-top: 1em;
+}
+
+.ability {
+    margin-top: 3em;
+}
+
+.ability-img {
+    margin-left: 1em;
+}
+
+.ability-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: end;
+    width: 20%;
+}
+
+.ability-img-small {
+    width: 37%;
+    margin: 1em;
+}
+
+.ability-img-medium {
+    width: 70%;
+    margin: 1em;
+}
+
+.ability-img-big {
+    width: 50%;
+    margin: 1em;
+}
+
+.ability-text {
+    font-size: 1em;
+}
+
+.skills {
+    margin-top: 3em;
+}
+
+.skills-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 18%;
+}
+
+
+.skills-img img {
+    width: 100%;
+    padding: 1em;
+}
+
+.skills-img h3{
+    font-size: 1em;
+}
+
+.interests-container {
+    margin-bottom: 2em;
+}
+
+.interests {
+    margin-top: 3em;
+}
+
+.interests h3 {
+    margin-bottom: 1em;
+}
+
+.insterest-img {
+    margin-left: 1em;
+}
+
+.insterest-img img {
+    width: 30%;
+    padding: 0.2em;
+}
+
+/*sm*/
+@media (min-width: 360px) and (max-width: 821px) {
+
+    .me-container {
+        width: 100%;
+        margin: 0;
+    }
+
+
+    .me-img {
+        width: 100%;
+        padding: 0;
+    }
+
+    .portada-me {
+        visibility: hidden;
+        position: fixed;
+        width: 0;
+    }
+
+    .portada-me-2 img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .me-text {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .me-text h1 {
+        text-align: center;
+        font-size: 5em;
+    }
+
+    .biography {
+        display: flex;
+        justify-content: center;
+        padding: 2em;
+    }
+
+    .biography h2 {
+        font-size: 3em;
+    }
+
+    .biography-text {
+        width: 100%;
+        text-align: center;
+    }
+
+    .biography-text p{
+        font-size: 2em;
+    }
+
+    .biography-list {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .biography-list ul {
+        padding: 0;
+        margin-top: 1em;
+    }
+
+    .biography-list li {
+        text-align: center;
+    }
+
+    .ability {
+        display: flex;
+        justify-content: center;
+        padding: 0;
+        margin-top: 1em;
+    }
+
+    .ability-img {
+        margin: 0;
+        padding: 0;
+    }
+
+    .ability-img img {
+        margin: 0;
+        padding: 0.5em;
+        width: 100%;
+    }
+
+    .ability-row{
+        display: flex;
+        justify-content: center;
+    }
+
+    .education {
+        width: 100%;
+    }
+
+    .education h2 {
+        text-align: center;
+        font-size: 3em;
+    }
+
+    .experience {
+        width: 100%;
+        margin-top: 2em;
+    }
+
+    .experience h2 {
+        text-align: center;
+        font-size: 3em;
+    }
+
+    .archivo {
+        width: 15%;
+    }
+
+    .archivo-text {
+        width: 85%;
+    }
+
+    .skill-row{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .skills h2 {
+        font-size: 3em;
+        text-align: center;
+    }
+
+    .skills-img {
+        padding: 1em;
+        width: 30%;
+    }
+
+    .skills-img img {
+        margin: 0;
+        padding: 0.5em;
+        width: 100%;
+    }
+
+    .interests h2 {
+        text-align: center;
+        font-size: 3em;
+    }
+
+    .insterest-img {
+        margin-top: 1em;
+    }
+
+    .insterest-img img {
+        width: 50%;
+    }
+
+}
+
+/* illustration */
+
+.img-portada-1 img {
+    width: 100%;
+    margin-top: 2em;
+}
+
+.galery-row{
+    display: flex;
+    justify-content: center;
+}
+
+
+.img-portada-2 {
+    visibility: hidden;
+    position: fixed;
+}
+
+.illustration-text {
+    width: 80%;
+}
+
+.illustration-text h1{
+    margin-top: 1.3em;
+    font-size: 3.5em;
+    text-align: center;
+}
+
+.galery-info-container{
+    display: flex;
+    justify-content: center;
+}
+
+
+.galery-info {
+    color: darkblue;
+    margin: 1em;
+    width: 75%;
+    text-align: justify;
+    font-size: 1.5em;
+}
+
+.img-galery-zoom {
+    border-color: transparent;
+}
+
+.modal-body {
+    display: flex;
+    flex-direction: row;
+}
+
+.modal-body img {
+    width: 100%;
+    padding: 2em;
+}
+
+
+.galery-container {
+    display: flex;
+    justify-content: center;
+}
+
+
+.img-galery img {
+    width: 100%;
+    border-radius: 2em;
+}
+
+.img-galery {
+    width: 33%;
+    padding: 0.5em;
+}
+
+.img-galery-full {
+    width: 100%;
+}
+
+.img-galery-full img {
+    width: 100%;
+    border-radius: 2em;
+}
+
+
+.galery-button {
+    display: flex;
+    justify-content: start;
+    border-color: transparent;
+    border-radius: 2em;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(100%);
+}
+
+.carrusel-img {
+    width: 50%;
+}
+
+.carrusel-text {
+    margin-top: 3em;
+    width: 50%;
+    text-align: justify;
+    padding-right: 3em;
+}
+
+
+/*sm*/
+@media (min-width: 360px) and (max-width: 821px) {
+
+    .img-portada-1 {
+        width: 0;
+    }
+
+    .illustration-text h1{
+        text-align: center;
+        font-size: 3em;
+        margin-top: 1em;
+    }
+
+    .img-portada-2 {
+        position: static;
+        margin: 1em;
+        visibility: visible;
+    }
+
+    .img-portada-2 img {
+        width: 100%;
+    }
+
+    .galery-container {
+        margin: 0;
+    }
+
+    .galery-info {
+        text-align: justify;
+        margin: 0;
+        font-size: 0.7em;
+    }
+
+    .img-galery {
+        width: 100%;
+        padding: 1em;
+    }
+
+    .img-galery-full img {
+        width: 100%;
+        padding: 1em;
+    }
+
+    .carrusel-img {
+        width: 100%;
+    }
+
+    .carrusel-text {
+        width: 100%;
+    }
+
+    .carrusel-text h2 {
+        margin-top: 0;
+    }
+
+    .modal {
+        margin-top: 10em;
+    }
+
+
+
+}
+
+
+/* footer */
+
+
+.button1 {
+    position: fixed;
+    line-height: 55px;
+    bottom: 30px;
+    right: 50px;
+    text-align: center;
+}
+
+.button1 img {
+    width: 4em;
+}
+
+.button2 {
+    position: fixed;
+    line-height: 55px;
+    bottom: 110px;
+    right: 50px;
+    text-align: center;
+}
+
+.button2 img {
+    width: 4em;
+}
+
+.button3 {
+    position: fixed;
+    line-height: 55px;
+    bottom: 190px;
+    right: 50px;
+    text-align: center;
+}
+
+.button3 img {
+    width: 4em;
+}
+
+@media (min-width: 360px) and (max-width: 821px) {
+
+    footer{
+        display: flex;
+        justify-content: center;
+        margin: 2em;
+    }
+
+    .button1 {
+        margin: 1em;
+        position: static;
+    }
+    
+    .button1 img {
+        width: 5em;
+    }
+    
+    .button2 {
+        margin: 1em;
+        position: static;
+    }
+    
+    .button2 img {
+        width: 5em;
+    }
+    
+    .button3 {
+        margin: 1em;
+        position: static;
+    }
+    
+    .button3 img {
+        width: 5em;
+    }
+    
+}
+
+[data-aos] {
+    pointer-events: none;
+  }
+  .aos-animate {
+    pointer-events: auto;
+  }
+  .aos-init[data-aos][data-aos].aos-animate {
+    transform: unset;
+  }
