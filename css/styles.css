@@ -85,7 +85,7 @@ h4 {
 
 
 .index{
-margin: 2em;
+margin-top: 0.3em;
 }
 
 
@@ -166,12 +166,12 @@ margin: 2em;
     border-radius: 1em;
     background-color: #a0e2e0;
     opacity: 80%;
-    width: 80%;
+    width: 70%;
 }
 
 .lib {
     list-style: none;
-    font-size: 1em;
+    font-size: 1.1em;
     color: darkblue;
 }
 
@@ -192,10 +192,15 @@ margin: 2em;
 }
 
 .archivo-text {
-    width: 85%;
+    width: 80%;
     font-size: 1em;
     text-align: start;
     color: darkblue;
+    margin: 0.5em;
+}
+
+.archivo-text p{
+    margin: 0;
 }
 
 .archivo-container {
@@ -300,9 +305,17 @@ margin: 2em;
     margin-left: 1em;
 }
 
-.insterest-img img {
+.interestest-container{
     width: 30%;
-    padding: 0.2em;
+    padding: 0;
+}
+
+.interestest-container img:hover{
+    transform: scale(1.2);
+}
+
+.interestest-container img {
+    width: 100%;
 }
 
 /*sm*/
