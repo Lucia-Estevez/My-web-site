@@ -85,7 +85,13 @@ h4 {
 
 
 .index{
-margin-top: 0.3em;
+    display: flex;
+    justify-content: center;
+    margin-top: 0.3em;
+}
+
+.index img {
+    width: 72%;
 }
 
 
@@ -586,6 +592,10 @@ margin-top: 0.3em;
 @media (min-width: 360px) and (max-width: 821px) {
 
     .img-portada-1 {
+        width: 0;
+    }
+
+    .index{
         width: 0;
     }
 
